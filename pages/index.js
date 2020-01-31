@@ -47,11 +47,6 @@ const Home = () => (
         <Head>
             <title>Home</title>
             <link rel="icon" href="/favicon.ico" />
-            <meta
-                name="description"
-                content="This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. "
-            />
-            <meta name="keywords" content="jifcast playlists music" />
         </Head>
         <App>
             <Container height="100%" direction="column">
