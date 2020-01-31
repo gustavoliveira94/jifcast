@@ -15,6 +15,7 @@ const musics = [
         listens: 96,
         progress: 48,
         img: '/assets/img/music1.png',
+        link: 'https://www.google.com',
     },
     {
         artist: 'myfavoritemurder',
@@ -25,6 +26,7 @@ const musics = [
         listens: 87,
         progress: 79,
         img: '/assets/img/music2.png',
+        link: 'https://www.yahoo.com',
     },
     {
         artist: 'JorRogan',
@@ -35,6 +37,7 @@ const musics = [
         listens: 96,
         progress: 48,
         img: '/assets/img/music1.png',
+        link: 'https://www.amazon.com',
     },
 ];
 
@@ -48,7 +51,7 @@ const Home = () => (
             <Container height="100%" direction="column">
                 <h2>Playlists</h2>
                 {musics.map(music => (
-                    <Music>
+                    <Music href={music.link} target="_blank">
                         <Music.Image>
                             <img src={music.img} alt="music" />
                         </Music.Image>

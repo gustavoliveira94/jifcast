@@ -6,7 +6,7 @@ import Options from './options';
 import Progress from './progress';
 import Infos from './infos';
 
-const Music = styled.div`
+const Music = styled.a`
     display: flex;
     align-items: center;
     width: 550px;
@@ -14,6 +14,7 @@ const Music = styled.div`
     border-bottom: 1px solid #e9f7f4;
     padding: 10px 0;
     margin-bottom: 10px;
+    text-decoration: none;
 `;
 
 Music.Image = Image;
