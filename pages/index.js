@@ -1,3 +1,4 @@
+/* eslint-disable react/no-array-index-key */
 import React from 'react';
 import Head from 'next/head';
 
@@ -46,12 +47,17 @@ const Home = () => (
         <Head>
             <title>Home</title>
             <link rel="icon" href="/favicon.ico" />
+            <meta
+                name="description"
+                content="This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. "
+            />
+            <meta name="keywords" content="jifcast playlists music" />
         </Head>
         <App>
             <Container height="100%" direction="column">
                 <h2>Playlists</h2>
-                {musics.map(music => (
-                    <Music href={music.link} target="_blank">
+                {musics.map((music, index) => (
+                    <Music href={music.link} target="_blank" key={index}>
                         <Music.Image>
                             <img src={music.img} alt="music" />
                         </Music.Image>
