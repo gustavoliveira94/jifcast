@@ -19,6 +19,10 @@ const Infos = styled.div`
             margin-left: 7px;
         }
     }
+
+    @media screen and (max-width: 600px) {
+        margin-top: 20px;
+    }
 `;
 
 export default Infos;

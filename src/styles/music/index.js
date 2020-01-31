@@ -15,6 +15,10 @@ const Music = styled.a`
     padding: 10px 0;
     margin-bottom: 10px;
     text-decoration: none;
+
+    @media screen and (max-width: 600px) {
+        width: 100%;
+    }
 `;
 
 Music.Image = Image;

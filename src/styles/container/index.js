@@ -11,6 +11,10 @@ const Container = styled.div`
 
     h2 {
         margin-bottom: 60px;
+
+        @media screen and (max-width: 600px) {
+            display: none;
+        }
     }
 `;
 

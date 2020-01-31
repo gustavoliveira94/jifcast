@@ -5,6 +5,7 @@ import Container from '../../styles/container';
 
 const Header = () => {
     const notification = 12;
+    const downloads = 16;
 
     return (
         <HeaderUp>
@@ -35,6 +36,13 @@ const Header = () => {
                     </ul>
                 </HeaderUp.Menu>
             </Container>
+            <HeaderUp>
+                <h2>Downloads</h2>
+                <div>
+                    <img src="/assets/img/downloads.svg" alt="downloads" />
+                    <span>{downloads}</span>
+                </div>
+            </HeaderUp>
         </HeaderUp>
     );
 };

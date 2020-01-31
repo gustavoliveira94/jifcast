@@ -18,4 +18,8 @@ export const Footer = styled.div`
         line-height: 23px;
         color: #afafaf;
     }
+
+    @media screen and (max-width: 600px) {
+        display: none;
+    }
 `;

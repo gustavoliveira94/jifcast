@@ -24,6 +24,8 @@ const Content = styled.div`
         font-size: 13px;
         line-height: 16px;
         color: #89d8cb;
+        white-space: nowrap;
+        text-overflow: ellipsis;
     }
 
     h3 {

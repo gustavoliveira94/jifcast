@@ -21,6 +21,10 @@ const Progress = styled.div`
         line-height: 16px;
         color: #7fb0a9;
     }
+
+    @media screen and (max-width: 600px) {
+        display: none;
+    }
 `;
 
 export default Progress;
