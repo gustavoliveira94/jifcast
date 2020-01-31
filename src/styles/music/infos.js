@@ -5,7 +5,6 @@ const Infos = styled.div`
     align-items: center;
     justify-content: space-between;
     width: 150px;
-    margin-top: 20px;
 
     div {
         display: flex;

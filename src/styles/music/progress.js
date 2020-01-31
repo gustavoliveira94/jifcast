@@ -4,7 +4,6 @@ const Progress = styled.div`
     display: flex;
     align-items: center;
     width: 172px;
-    margin-top: 20px;
 
     progress {
         width: 130px;
