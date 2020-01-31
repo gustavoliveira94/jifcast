@@ -2,13 +2,15 @@
   "name": "jifcast",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://gustavoliveira94.github.io/jifcast",
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "next start"
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.17.1",
+    "heroku": "^7.37.0",
     "next": "9.2.1",
     "next-routes": "^1.4.2",
     "prop-types": "^15.7.2",
@@ -26,6 +28,7 @@
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.18.0",
     "eslint-plugin-react-hooks": "^1.7.0",
+    "gh-pages": "^2.2.0",
     "prettier": "^1.19.1"
   }
 }
