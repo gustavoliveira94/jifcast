@@ -4,7 +4,8 @@ import Head from 'next/head';
 
 import Container from '../src/styles/container';
 import App from '../src/styles/app';
-import Music from '../src/styles/music';
+
+import Musics from '../src/components/musics';
 
 const musics = [
     {
@@ -52,47 +53,7 @@ const Home = () => (
             <Container height="100%" direction="column">
                 <h2>Playlists</h2>
                 {musics.map((music, index) => (
-                    <Music href={music.link} target="_blank" key={index}>
-                        <Music.Image>
-                            <img src={music.img} alt="music" />
-                        </Music.Image>
-                        <Music.Content>
-                            <span>{music.artist}</span>
-                            <h3>{music.title}</h3>
-                            <p>{music.description}</p>
-                            <Music.Options>
-                                <Music.Infos>
-                                    <div>
-                                        <img
-                                            src="/assets/img/like.svg"
-                                            alt="like"
-                                        />
-                                        <span>{music.likes}</span>
-                                    </div>
-                                    <div>
-                                        <img
-                                            src="/assets/img/listen.svg"
-                                            alt="listen"
-                                        />
-                                        <span>{music.listens}</span>
-                                    </div>
-                                    <div>
-                                        <img
-                                            src="/assets/img/cloud.svg"
-                                            alt="cloud"
-                                        />
-                                    </div>
-                                </Music.Infos>
-                                <Music.Progress>
-                                    <progress
-                                        value={music.progress}
-                                        max="100"
-                                    />
-                                    <span>{`${music.progress}%`}</span>
-                                </Music.Progress>
-                            </Music.Options>
-                        </Music.Content>
-                    </Music>
+                    <Musics music={music} key={index} />
                 ))}
             </Container>
         </App>
