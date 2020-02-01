@@ -6,6 +6,7 @@ const App = styled.div`
     width: 100%;
     height: calc(100vh - 168px);
     padding: 45px 20px;
+    overflow-y: scroll;
 
     @media screen and (max-width: 600px) {
         height: auto;
