@@ -10,9 +10,9 @@ const Music = styled.a`
     display: flex;
     align-items: center;
     width: 550px;
-    height: 120px;
+    height: auto;
     border-bottom: 1px solid #e9f7f4;
-    padding: 10px 0;
+    padding: 20px 0;
     margin-bottom: 10px;
     text-decoration: none;
 

@@ -4,7 +4,7 @@ const Content = styled.div`
     display: flex;
     flex-direction: column;
     width: calc(100% - 89px);
-    height: 100%;
+    height: auto;
     padding: 0 10px;
 
     span {
@@ -26,6 +26,7 @@ const Content = styled.div`
         color: #89d8cb;
         white-space: nowrap;
         text-overflow: ellipsis;
+        margin-bottom: 20px;
     }
 
     h3 {
