@@ -47,7 +47,6 @@ const Home = () => (
     <>
         <Head>
             <title>Home</title>
-            <link rel="icon" href="/favicon.ico" />
         </Head>
         <App>
             <Container height="100%" direction="column">

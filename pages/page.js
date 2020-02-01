@@ -10,6 +10,7 @@ const Page = () => {
     return (
         <>
             <Head>
+                <title>This is page 2</title>
                 <meta name="description" content={description} />
                 <meta name="keywords" content="jifcast playlists music" />
             </Head>
