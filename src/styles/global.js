@@ -17,10 +17,4 @@ export default createGlobalStyle`
             background-color: #fff;
         }
    }
-
-   @font-face {
-        font-family: SF Pro Display;
-        font-weight: 400;
-        src: url('https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff46');
-    }
 `;

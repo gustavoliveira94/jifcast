@@ -6,7 +6,7 @@ import Music from '../../styles/music';
 
 const Musics = ({ music }) => {
     return (
-        <Music href={music.link} target="_blank">
+        <Music href={music.link}>
             <Music.Image>
                 <img src={music.img} alt="music" />
             </Music.Image>

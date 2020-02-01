@@ -35,11 +35,11 @@ class MyDocument extends Document {
                         href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
                         rel="stylesheet"
                     />
-                    <meta
-                        name="description"
-                        content="This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. This is page 2 description. "
+                    <link
+                        href="//db.onlinewebfonts.com/c/0b51833ff62e4af8acb5fd3e2bf59e97?family=SF+Pro+Display"
+                        rel="stylesheet"
+                        type="text/css"
                     />
-                    <meta name="keywords" content="jifcast playlists music" />
                 </Head>
                 <body>
                     <Main />

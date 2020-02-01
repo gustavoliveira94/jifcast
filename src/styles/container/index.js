@@ -9,6 +9,10 @@ const Container = styled.div`
     width: 100%;
     height: ${props => props.height};
 
+    a {
+        text-decoration: none;
+    }
+
     h2 {
         margin-bottom: 60px;
 

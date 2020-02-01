@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Link from 'next/link';
 
 import Image from './image';
 import Content from './content';
@@ -6,7 +7,7 @@ import Options from './options';
 import Progress from './progress';
 import Infos from './infos';
 
-const Music = styled.a`
+const Music = styled(Link)`
     display: flex;
     align-items: center;
     width: 550px;
